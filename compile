@@ -1,0 +1,2 @@
+g++ -o project3 `pkg-config --cflags playerc++` project3.cc `pkg-config --libs playerc++` -lnsl communicate.o
+
